@@ -1,0 +1,37 @@
+# Quartus generated databases and incremental compilation caches
+db/
+incremental_db/
+output_files/
+
+# Generated simulation directories and libraries
+simulation/
+work/
+transcript
+vsim.wlf
+
+# Quartus workspace, temporary, and backup files
+*.qws
+*.bak
+*.temp
+*.qmsg
+*.smsg
+*.rpt
+*.done
+
+# Generated programming and simulation artifacts
+*.sof
+*.pof
+*.jdi
+*.cdf
+*.sdo
+*.vo
+*.vho
+*.vt
+*.do
+*.sft
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+

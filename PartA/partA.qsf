@@ -1,0 +1,140 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# Date created = 15:03:17  June 18, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		partA_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY partA
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:03:17  JUNE 18, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VHDL_FILE ALU1.vhd
+set_global_assignment -name VHDL_FILE register1.vhd
+set_global_assignment -name VHDL_FILE decoder3to8.vhd
+set_global_assignment -name VHDL_FILE sseg.vhd
+set_global_assignment -name VHDL_FILE machine.vhd
+set_global_assignment -name BDF_FILE partA.bdf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_C13 -to A[7]
+set_location_assignment PIN_AC13 -to A[6]
+set_location_assignment PIN_AD13 -to A[5]
+set_location_assignment PIN_AF14 -to A[4]
+set_location_assignment PIN_AE14 -to A[3]
+set_location_assignment PIN_P25 -to A[2]
+set_location_assignment PIN_N26 -to A[1]
+set_location_assignment PIN_N25 -to A[0]
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name STRATIX_CONFIGURATION_DEVICE EPCS16
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_location_assignment PIN_AF10 -to ResultA[0]
+set_location_assignment PIN_AB12 -to ResultA[1]
+set_location_assignment PIN_AC12 -to ResultA[2]
+set_location_assignment PIN_AD11 -to ResultA[3]
+set_location_assignment PIN_AE11 -to ResultA[4]
+set_location_assignment PIN_V14 -to ResultA[5]
+set_location_assignment PIN_V13 -to ResultA[6]
+set_location_assignment PIN_AB23 -to ResultB[0]
+set_location_assignment PIN_V22 -to ResultB[1]
+set_location_assignment PIN_AC25 -to ResultB[2]
+set_location_assignment PIN_AC26 -to ResultB[3]
+set_location_assignment PIN_AB26 -to ResultB[4]
+set_location_assignment PIN_AB25 -to ResultB[5]
+set_location_assignment PIN_Y24 -to ResultB[6]
+set_location_assignment PIN_V20 -to signA[0]
+set_location_assignment PIN_V21 -to signA[1]
+set_location_assignment PIN_W21 -to signA[2]
+set_location_assignment PIN_Y22 -to signA[3]
+set_location_assignment PIN_AA24 -to signA[4]
+set_location_assignment PIN_AA23 -to signA[5]
+set_location_assignment PIN_AB24 -to signA[6]
+set_location_assignment PIN_Y23 -to signB[0]
+set_location_assignment PIN_AA25 -to signB[1]
+set_location_assignment PIN_AA26 -to signB[2]
+set_location_assignment PIN_Y26 -to signB[3]
+set_location_assignment PIN_Y25 -to signB[4]
+set_location_assignment PIN_U22 -to signB[5]
+set_location_assignment PIN_W24 -to signB[6]
+set_location_assignment PIN_U9 -to Student_id[0]
+set_location_assignment PIN_U1 -to Student_id[1]
+set_location_assignment PIN_U2 -to Student_id[2]
+set_location_assignment PIN_T4 -to Student_id[3]
+set_location_assignment PIN_R7 -to Student_id[4]
+set_location_assignment PIN_R6 -to Student_id[5]
+set_location_assignment PIN_T3 -to Student_id[6]
+set_location_assignment PIN_T2 -to Student_idsign[0]
+set_location_assignment PIN_P6 -to Student_idsign[1]
+set_location_assignment PIN_P7 -to Student_idsign[2]
+set_location_assignment PIN_T9 -to Student_idsign[3]
+set_location_assignment PIN_R5 -to Student_idsign[4]
+set_location_assignment PIN_R4 -to Student_idsign[5]
+set_location_assignment PIN_R3 -to Student_idsign[6]
+set_location_assignment PIN_U4 -to A10[7]
+set_location_assignment PIN_U3 -to A10[6]
+set_location_assignment PIN_T7 -to A10[5]
+set_location_assignment PIN_P2 -to A10[4]
+set_location_assignment PIN_P1 -to A10[3]
+set_location_assignment PIN_N1 -to A10[2]
+set_location_assignment PIN_A13 -to A10[1]
+set_location_assignment PIN_B13 -to A10[0]
+set_location_assignment PIN_V2 -to clk
+set_location_assignment PIN_V1 -to reset
+set_location_assignment PIN_Y12 -to overflow
+set_location_assignment PIN_AE22 -to opcode_out[7]
+set_location_assignment PIN_AF22 -to opcode_out[6]
+set_location_assignment PIN_W19 -to opcode_out[5]
+set_location_assignment PIN_V18 -to opcode_out[4]
+set_location_assignment PIN_U18 -to opcode_out[3]
+set_location_assignment PIN_U17 -to opcode_out[2]
+set_location_assignment PIN_AA20 -to opcode_out[1]
+set_location_assignment PIN_Y18 -to opcode_out[0]
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform100.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/WaveformDEC.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/FSM.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "/home/student2/rqouta/COE328/Lab 6/PartA/Waveform.vwf"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
